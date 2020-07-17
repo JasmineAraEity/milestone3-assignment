@@ -7,7 +7,7 @@ function feetToMile(feet){
         return mile;
     }
     else{
-        return "distance cant be negative";
+        return "distance can't be negative";
     }
 }
 var result= feetToMile(100);
