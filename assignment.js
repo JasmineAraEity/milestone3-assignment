@@ -21,7 +21,7 @@ function woodCalculator(chair, table, bed){
     var tableCount= table * 3;
     var bedCount= bed * 5;
 
-    var totalWood = chairCount+ tableCount+ bedCount;
+    var totalWood = chairCount + tableCount + bedCount;
     return totalWood;
 
 }
@@ -33,23 +33,23 @@ console.log(result);
 function bricCalculator(height){
 
     if(height<=10){
-       var total= height*15*1000;
+       var total= height * 15 * 1000;
 
        return total;
     }
 
     else if(height>10 && height<=20){
-        var total1= 10*15*1000;
-        var total2= (height-10)*12* 1000;
-        var total= total1+total2;
+        var total1= 10 * 15 * 1000;
+        var total2= (height-10) *12  * 1000;
+        var total= total1 + total2;
 
         return total;
     }
     else {
-        var total1= 10*15*1000;
-        var total2= 10*12*1000;
-        var total3= (height-20)*10*1000;
-        var total= total1+total2+ total3;
+        var total1= 10 * 15 * 1000;
+        var total2= 10 * 12 * 1000;
+        var total3= (height-20) * 10 * 1000;
+        var total= total1 + total2 + total3;
 
         return total;
     }
